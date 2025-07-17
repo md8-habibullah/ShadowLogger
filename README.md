@@ -1,4 +1,4 @@
-# 🔑 Cross-Platform Python Keylogger
+# 🔑 Cross-Platform Python ShadowLogger
 
 A simple keylogger written in Python that works on **Linux** (using `evdev`) and **Windows** (using `pynput`). It logs all keystrokes in plain text to a file and can auto-run on boot in Linux.
 
